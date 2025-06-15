@@ -1,0 +1,36 @@
+nav {
+    background-color: wheat;
+}
+
+ul {
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+    display: inline;
+}
+
+.right-li {
+    display: block;
+    text-align: center;
+    float: right;
+    background-color: dimgray;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: antiquewhite;
+}
