@@ -1,35 +1,62 @@
 nav {
-    background-color: wheat;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    z-index: 2;
+}
+
+.logo {
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
 }
 
 ul {
+    display: flex;
     list-style-type: none;
+    margin: 10px;
     align-items: center;
-    margin: 0;
     overflow: hidden;
-    padding: 0 0 0 10px;
 }
 
 li {
-    float: left;
-    display: inline;
-}
-
-.right-li {
     display: block;
     text-align: center;
-    float: right;
-    background-color: dimgray;
+    background-color: transparent;
+    border: none;
+    height: inherit;
 }
 
 li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 25px;
     text-decoration: none;
+    font-family: "PT Sans", sans-serif;
+    font-size: 1em;
 }
 
 li a:hover {
-    background-color: antiquewhite;
+    background-color: grey;
+}
+
+a.active {
+    font-weight: bold;
 }

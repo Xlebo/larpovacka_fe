@@ -1,6 +1,6 @@
-import {Link, Outlet, useNavigate} from "react-router";
+import {NavLink, useNavigate} from "react-router";
 import "./navbar.css"
-import { signOut } from "firebase/auth";
+import {signOut} from "firebase/auth";
 import {auth} from "../firebase/firebaseConfig.js";
 
 export default function Navbar({user, setUser}) {
@@ -8,8 +8,7 @@ export default function Navbar({user, setUser}) {
 
     function logout() {
 
-        signOut(auth).then(() =>
-        {
+        signOut(auth).then(() => {
             setUser(null);
             navigate("/")
         }).catch(error => alert(error.message)
@@ -20,8 +19,12 @@ export default function Navbar({user, setUser}) {
         if (user == null) {
             return (
                 <>
-                    <li className="right-li"><Link to="/login">Login</Link></li>
-                    <li className="right-li"><Link to="/register">Register</Link></li>
+                    <ul>
+                        <li><NavLink to="/">Home</NavLink></li>
+                        <li><NavLink to="/about">About</NavLink></li>
+                        <li><NavLink to="/login">Login</NavLink></li>
+                        <li><NavLink to="/register">Register</NavLink></li>
+                    </ul>
                 </>
             )
         }
@@ -33,13 +36,14 @@ export default function Navbar({user, setUser}) {
     return (
         <>
             <nav>
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    {rightCorner()}
-                </ul>
+                <div className="logo">
+                    <li><NavLink to="/">
+                        <img src="/img/machlogo.png" alt="MACH logo"/>
+                        Cesta Machom
+                    </NavLink></li>
+                </div>
+                {rightCorner()}
             </nav>
-            <Outlet/>
         </>
     )
 }

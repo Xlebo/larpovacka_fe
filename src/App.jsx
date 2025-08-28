@@ -1,13 +1,10 @@
 import {BrowserRouter, Route, Routes} from "react-router";
 import Home from "./pages/Home.jsx";
-import Navbar from "./components/Navbar.jsx";
 import About from "./pages/About.jsx";
 import Login from "./pages/Login.jsx";
 import Register from "./pages/Register.jsx";
-import {useEffect, useState} from "react";
-import {doc, getDoc} from "firebase/firestore";
-import {db} from "./firebase/firebaseConfig.js";
-
+import {useState} from "react";
+import Header from "./components/Header.jsx";
 
 function App() {
     const [user, setUser] = useState(null);
@@ -15,7 +12,7 @@ function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Navbar setUser={setUser} user={user}/>}>
+                <Route path="/" element={<Header setUser={setUser} user={user}/>}>
                     <Route index element={<Home/>}/>
                     <Route path="*" element={<Home/>}/>
                     <Route path="about" element={<About/>}/>
