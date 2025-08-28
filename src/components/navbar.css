@@ -9,6 +9,7 @@ nav {
 }
 
 .logo {
+    margin-left: 20px;
     margin-right: auto;
     display: flex;
     flex-direction: row;
@@ -19,18 +20,19 @@ nav {
     flex-direction: row;
     align-items: center;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .logo img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+    filter: contrast(1.2);
+    margin-right: 15px;
 }
 
 ul {
     display: flex;
     list-style-type: none;
-    margin: 10px;
     align-items: center;
     overflow: hidden;
 }
@@ -47,7 +49,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 25px;
+    padding: 10px 10px;
     text-decoration: none;
     font-family: "PT Sans", sans-serif;
     font-size: 1em;
@@ -59,4 +61,12 @@ li a:hover {
 
 a.active {
     font-weight: bold;
+}
+
+.login {
+    background-color: rgba(64, 192, 128, 0.3);
+}
+
+.register {
+    background-color: rgba(0, 128, 0, 0.3);
 }
