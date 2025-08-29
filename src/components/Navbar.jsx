@@ -23,8 +23,8 @@ export default function Navbar({user, setUser}) {
                         <li><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/pravidla">Pravidlá</NavLink></li>
                         <li><NavLink to="/prakticke">Praktické</NavLink></li>
-                        <li><NavLink to="/contact">Org Tím</NavLink></li>
-                        <li><NavLink to="faq">FAQ</NavLink></li>
+                        <li><NavLink to="/contacts">Org Tím</NavLink></li>
+                        <li><NavLink to="/faq">FAQ</NavLink></li>
                         <li className="login"><NavLink to="/login">Login</NavLink></li>
                         <li className="register"><NavLink to="/register">Registrácia</NavLink></li>
                     </ul>
