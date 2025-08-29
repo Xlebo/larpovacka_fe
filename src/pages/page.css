@@ -1,35 +1,18 @@
-
 main {
-    display: flex;
-    flex-direction: column;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    max-width: 1130px;
+    margin: 24px auto;
 }
 
-main form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-main form div {
-    padding-top: 20px;
-}
-
-p {
+p, li {
     font-size: 16px;
     font-weight: 400;
     font-family: "Merriweather", serif;
-    line-height: 1.7em;
+    line-height: 1.5em;
     width: 100%;
-    max-width: 1130px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 12px;
 }
 
 h2 {
-    max-width: 1130px;
     margin: 24px auto 0;
     color: rgba(67,123,72,1);
     font-family: "PT Sans", sans-serif;
@@ -37,4 +20,55 @@ h2 {
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -0.5px;
+}
+
+h3 {
+    margin: 12px auto 0;
+    color: rgba(67,123,72,1);
+    font-family: "PT Sans", sans-serif;
+    font-size: 19pt;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+h4 {
+    margin: 12px auto 0;
+    color: rgba(67,123,72,1);
+    font-family: "PT Sans", sans-serif;
+    font-size: 15pt;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+main ul {
+    display: block;
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 1.5rem;
+}
+
+main ul ul {
+    list-style-type: circle;
+    padding-left: 1.5rem;
+}
+
+main li {
+    display: list-item;
+    text-align: left;
+    margin: 5px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+main li ol {
+    list-style-type: decimal;
+}
+
+blockquote {
+    font-style: italic;
+    text-align: center;
+    margin: 1em auto;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 11pt;
 }

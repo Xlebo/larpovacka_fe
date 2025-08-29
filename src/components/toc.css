@@ -1,0 +1,30 @@
+.toc ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.toc li {
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.toc li.level-3 {
+    margin-left: 0;
+}
+
+.toc li.level-4 {
+    margin-left: 1rem;
+}
+
+.toc a {
+    text-decoration: none;
+    color: rgba(67,123,72,1);
+    text-align: left;
+}
+
+.toc a:hover {
+    text-decoration: underline;
+}
