@@ -55,7 +55,6 @@ main ul ul {
 main li {
     display: list-item;
     text-align: left;
-    margin: 5px;
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
