@@ -6,7 +6,7 @@ const titles = {
     "/": { headerText: "Cesta Machom" },
     "/pravidla": { headerText: "Pravidlá"},
     "/prakticke": { headerText: "Praktické"},
-    "/contacts": { headerText: "Org Tím" },
+    "/contacts": { headerText: "Kontakt" },
     "/faq": { headerText: "FAQ"},
     "/login": { headerText: "Prihlásenie" },
     "/register": { headerText: "Registrácia"},

@@ -2,8 +2,6 @@ import {BrowserRouter, Route, Routes} from "react-router";
 import Home from "./pages/Home.jsx";
 import {useState} from "react";
 import Header from "./components/Header.jsx";
-import Register from "./pages/Register.jsx";
-import Login from "./pages/Login.jsx";
 import Pravidla from "./pages/Pravidla.jsx";
 import Prakticke from "./pages/Prakticke.jsx";
 import Contacts from "./pages/Contacts.jsx";
@@ -22,8 +20,8 @@ function App() {
                     <Route path="prakticke" element={<Prakticke/>}/>
                     <Route path="faq" element={<FAQ/>}/>
                     <Route path="contacts" element={<Contacts/>}/>
-                    <Route path="login" element={<Login setUser={(data) => setUser(data)}/>}/>
-                    <Route path="register" element={<Register/>}/>
+                    {/*<Route path="login" element={<Login setUser={(data) => setUser(data)}/>}/>*/}
+                    {/*<Route path="register" element={<Register/>}/>*/}
                 </Route>
             </Routes>
         </BrowserRouter>

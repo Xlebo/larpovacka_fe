@@ -4,11 +4,10 @@ export default function PersonBio({contact: {imgUrl, about, name, quote, email, 
 
     return (
         <div className="bio">
-            <img src={imgUrl} alt={name}/>
+            {/*<img src={imgUrl} alt={name}/>*/}
             <div className="text">
                 <h2>{name}</h2>
-                <p><i>"{quote}"</i></p>
-                <p>{about}</p>
+                {/*<p>{about}</p>*/}
                 <p><b>Email:</b> <a href={`mailto:${email}`}>{email}</a></p>
                 <p><b>Tel.č.:</b> {phoneNumbers.join(", ")}</p>
             </div>
