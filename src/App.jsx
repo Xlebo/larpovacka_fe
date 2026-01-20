@@ -5,7 +5,7 @@ import Header from "./components/Header.jsx";
 import Pravidla from "./pages/Pravidla.jsx";
 import Prakticke from "./pages/Prakticke.jsx";
 import Contacts from "./pages/Contacts.jsx";
-import FAQ from "./pages/FAQ.jsx";
+import Registracia from "./pages/Registracia.jsx";
 
 function App() {
     const [user, setUser] = useState(null);
@@ -18,7 +18,7 @@ function App() {
                     <Route path="*" element={<Home/>}/>
                     <Route path="pravidla" element={<Pravidla/>}/>
                     <Route path="prakticke" element={<Prakticke/>}/>
-                    <Route path="faq" element={<FAQ/>}/>
+                    <Route path="faq" element={<Registracia/>}/>
                     <Route path="contacts" element={<Contacts/>}/>
                     {/*<Route path="login" element={<Login setUser={(data) => setUser(data)}/>}/>*/}
                     {/*<Route path="register" element={<Register/>}/>*/}

@@ -17,8 +17,9 @@ export default function Pravidla() {
                         <li>Pre plynulý a bezpečný priebeh hry je nutné riadiť sa pokynmi organizátora.</li>
                         <ul>
                             <li>V prípade, že svojím problematickým chovaním bude hráč nebezpečný pre ostatných
-                                účastníkov alebo priebeh akcie, vyhradzuje si organizátor právo vylúčiť jednotlivca
-                                alebo celú jeho skupinu z akcie, bez nároku na vrátenie účastníckeho poplatku.
+                                účastníkov, priebeh akcie, alebo životné prostredie, vyhradzuje si organizátor právo
+                                vylúčiť jednotlivca alebo celú jeho skupinu z akcie, bez nároku na vrátenie účastníckeho
+                                poplatku.
                             </li>
                         </ul>
                         <li><b>V skratke nebuďte hovada - neničte prírodu a majetok okolo seba, dbajte o zdravie
@@ -34,7 +35,7 @@ export default function Pravidla() {
                                 rade je tam šanca, že sa priučí novým slovám.
                             </li>
                             <li>Ak by ste mali záujem o family friendly puzzle hunt, ktorý by bol čisto kategória
-                                detí, a ste ochotní ho vymyslieť, kontaktujte Chlebíka, môžme to skúsiť prebrať.
+                                detí, a ste ochotní ho vymyslieť, kontaktujte nás, môžme to skúsiť prebrať.
                             </li>
                         </ul>
                     </ul>

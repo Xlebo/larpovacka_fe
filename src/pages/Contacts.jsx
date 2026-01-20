@@ -7,7 +7,7 @@ export default function Contacts() {
             "name": "Chlebo",
             "quote": "Behold, the cob of consequences!",
             "email": "samo.chlebo@gmail.com",
-            "phoneNumbers": ["+421 904 919 739", "+420 733 533 623"]
+            "phoneNumbers": ["+421 904 919 739 (aj na WA)", "+420 733 533 623"]
         }
     ]
 
