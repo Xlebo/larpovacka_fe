@@ -41,39 +41,11 @@ export default function Pravidla() {
                     </ul>
                 </section>
                 <section>
-                    <h3>Pravidlá hry</h3>
+                    <h3>Časový plán hry</h3>
                     <ul>
-                        <li>Hra má dve roviny - LARP, a šifrovačku.</li>
-                        <ul>
-                            <li><a href="https://sk.wikipedia.org/wiki/LARP">LARP</a> predstavuje časť hry, kde
-                                účastníci stvárňujú svoje postavy, a so svojou družinou sa snažia splniť svoje úlohy a
-                                ciele
-                            </li>
-                            <li>Mechanika, akou budú družiny dostávať informácie o ceste zo štartovnej do
-                                cieľovej lokácie, je bežne označovaná pojmom <a
-                                    href="https://cs.wikipedia.org/wiki/%C5%A0ifrovac%C3%AD_hra">Šifrovačka</a>. <br/>
-                                V priebehu hry budú môcť členovia družiny zadávať do systému riešenia jednotlivých
-                                šifier, aby si overili, že ju vyriešili správne, a zaznamenali čas, v ktorom ju
-                                vylúštili. Výsledok šifry bude slovo, veta, súradnice, alebo iná informácia, ktorá vas
-                                nasmeruje na miesto, kde nájdete ďalšiu šifru (alebo cieľ). Pre hladký priebeh bude teda
-                                potrebné mať mobil s internetovým pripojením, prípadne offline mapy (silne doporučujem
-                                mapy.cz).
-                            </li>
-                            <li>Nie je našim zámerom, aby družiny za každú cenu vyriešili všetky šifry, preto aby sme
-                                predišli tomu, aby sa niektorá družina komplet zasekla, budeme v pravidelných
-                                intervaloch zverejňovať ich riešenia.
-                            </li>
-                            <li>Náročnosť oboch herných rovín by mala byť nízka. Pod šiframi si môžete predstaviť niečo
-                                jednoduché, typu sudoku, hádanky či slovné prešmyčky, možno cézarová šifra. LARPové
-                                postavy sú jednoduché, a mimo základných medziľudských interakcii, ktoré na hre
-                                podstúpite ako Vaša postava, by sa nemali ocitnúť v zložitých situáciach (morálne,
-                                emocionálne, či akokoľvek inak zložitých...).
-                            </li>
-                        </ul>
-
                         <li>Hra začína 9:00 na lokácii určenej organizátorom, končí príchodom do cieľa určeného
-                            organizátorom, alebo najneskôr 18:00. Po vyhlásení víťaza následuje utáborenie a nočná hra
-                            pre hráčov, ktorí o ňu prejavia záujem
+                            organizátorom, najneskôr 19:00. Po vyhlásení víťaza následuje utáborenie a nočná hra
+                            pre hráčov, ktorí o ňu v registrácii prejavili záujem
                         </li>
                         <li>Družine, ktorá sa nedostaví včas na štart, zaniká nárok na účasť v hre</li>
                         <li>Na hre rozlišujeme niekoľko typov účastníkov:</li>
@@ -94,13 +66,15 @@ export default function Pravidla() {
                     <h3>Družiny</h3>
                     <ul>
                         <li>Družinou rozumieme najmenšiu jednotku, v akej je možné účastniť sa akcie.</li>
-                        <li>Skladá sa zo 4 až 5 hráčov, a má svojho veliteľa. Každý člen družiny je absolútne oddaný
+                        <li>Skladá sa zo 4 hráčov, a má svojho veliteľa. Každý člen družiny je absolútne oddaný
                             družine a poslušný jej veliteľovi.
                         </li>
                         <li><b>Počas hry je zakázané rozdeľovať sa vrámci družiny, meniť členov či veliteľov.</b></li>
-                        <li>Lore/Background má v prvom rade družina, background postavy nie je povinný.</li>
+                        <li>Lore/Background má v prvom rade družina, background postavy nie je povinný, silne však
+                            doporučujeme si ho napísať, aby sa Vaša postava lepšie začlenila do sveta.
+                        </li>
                         <li>Družiny môžu byť bojové, či nebojové. Nebojové družiny budú viditeľne označené, nesmú byť
-                            ozbrojené, a je zakázané ich napádať.
+                            ozbrojené, a je zakázané na ne útočiť.
                         </li>
                     </ul>
                 </section>
@@ -143,18 +117,17 @@ export default function Pravidla() {
                             neviete si poradiť s kostýmom, obraťte sa na organizátorov či FB event, poradíme, odkážeme
                             vás ďalej, s trochou šťastia vám aj vybavíme nejaké kusy kostýmu.
                         </li>
-                        <li><b>Absolútnym základom sú vždy pevné a prechodené topánky. Terén bude prevažne nespevnená
-                            cesta
-                            lesom či lúkou, s prevýšením, podvrtnuté členky, kolená, alebo otlaky vás vedia vyradiť z
-                            akcie veľmi rýchlo.</b>
+                        <li><b>Absolútnym základom sú vždy pevné topánky, v ktorých už máte niečo odchodené. Terén bude
+                            prevažne nespevnená cesta lesom či lúkou, s prevýšením, podvrtnuté členky, kolená, alebo
+                            otlaky vás vedia vyradiť z akcie veľmi rýchlo.</b>
                         </li>
                         <li><i>Neexistuje špatné počasí, jenom špatně vybavený člověk</i> - v prípade dažďa či iného
                             extrémneho počasia akciu samozrejme zrušíme, ale byť pripravený na nehlásenú prietrž či
                             chladné počasie sa oplatí vždy - mať so sebou pršiplášť, deku, a extra vrstvy oblečenia je
                             zodpovedné rozhodnutie. Vybavenie, ktoré si takto beriete na cestu so sebou, je
-                            najjednoduchšie niesť v žobradle (ktoré je fakt jednoduché na ušitie),
+                            najjednoduchšie niesť v žobradle (ktoré je jednoduché na ušitie),
                             zamotané do deky, ktorú prehodíte cez rameno, prípadne v krosne. Moderné batohy prosím aspoň
-                            prehoďte plachtou alebo kusom látky, nech to nie je pasca na oko.
+                            prehoďte plachtou alebo kusom látky, nech nekazia imerziu.
                         </li>
                     </ul>
                     <h4>Povolania</h4>
@@ -163,30 +136,33 @@ export default function Pravidla() {
                             život viedla doteraz. Rozlišujeme 4 základné typy:
                         </li>
                         <ol>
-                            <li>Bojovník</li>
+                            <li>Dobrodruh</li>
                             <ul>
-                                <li>postava zbehlá v boji. Do začiatku má +1 život</li>
-                                <li>nemá obmedzenie na zbrane a zbroje</li>
+                                <li>základné povolanie. jeho najsilnejšou zbraňou je potenciál, dobrá nálada chuť
+                                    poznávať svet
+                                </li>
+                                <li>nemá obmedzenie na zbrane, štíty ani zbroje</li>
                             </ul>
-                            <li>Klerik</li>
+                            <li>Lovec</li>
                             <ul>
-                                <li>postava schopná použiť moc, ktorú jej dalo jej božstvo</li>
-                                <li>najrozšírenejším náboženstvom je Cirkev Otca a Matky, so symbolmi slnka a holubice,
-                                    klerici tohto božstva pridajú dvom členom svojej skupiny +1 život
-                                </li>
-                                <li>bojová skupina môže mať max. 1 klerika. Pokiaľ chce klerik slúžiť inému náboženstvu,
-                                    musí byť vodcom družiny, a prebrať svoju postavu s organizátorom
-                                </li>
-                                <li>nemá obmedzenie na zbrane a zbroje</li>
+                                <li>sú zbehlí v živote v prírode, v love koristí a v používaní zbraní na diaľku</li>
+                                <li>majú schopnosť <a href="#prepad">prepad</a></li>
+                                <li>musia mať strelnú zbraň. Nemajú štíty, dlhé zbrane, max ľahká zbroj</li>
                             </ul>
                             <li>Učeň</li>
                             <ul>
-                                <li>postava, ktorá zasvätila svoj život štúdiu, často hľadajú alternatívy, ktoré by
-                                    mohli nahradiť mesačnú mágiu
+                                <li>
+                                    postavy s presvedčením, že vedomosti sú mocnejšie, než zbrane. Typicky rôzni šamani,
+                                    klerici, či mágovia, zahrávajúci sa s vyššími silami než sú oni sami
                                 </li>
-                                <li>nádejná škola mágie je elementálna mágia, ktorú sem priniesli mudrci z Dalgaru</li>
+                                <li>nádejná škola mágie je elementálna mágia, ktorú sem priniesli mudrci z Dalgaru, ale
+                                    neexistujú obecné pravidlá, ktoré by popisovali jej fungovanie
+                                </li>
                                 <li>disponujú jedným až dvoma kúzlami</li>
-                                <li>používajú len krátke zbrane, nemajú zbroje. Epické mágovské palice vítané</li>
+                                <li>vybavenie individuálne, typicky sú učni krajne nebojové postavy bez
+                                    zbroje a štítu, max s krátkou zbraňou
+                                </li>
+                                <li>epické palice a špičaté klobúky vítané!</li>
                             </ul>
                             <li>Sedliak</li>
                             <ul>
@@ -196,6 +172,16 @@ export default function Pravidla() {
                                 </li>
                             </ul>
                         </ol>
+                        <li>Prestížne povolania</li>
+                        <ul>
+                            <li>Niektorí dobrodruhovia sú vo svojom základnom povolaní tak zbehlí, že ďaleko prestahujú
+                                jeho rámec. Ako? To už je na Vás!
+                            </li>
+                            <li>Na to, aby ste sa mohli registrovať ako postava s prestýžnym povolaním, sú vysoké
+                                nároky. Mimo dobre napísanej postavy (background a mechaniky jej fungovania) budeme
+                                očakávať aj vysokú kvalitu kostýmu, ktorý bude musieť byť vopred schválený.
+                            </li>
+                        </ul>
                     </ul>
                 </section>
                 <section>
@@ -238,18 +224,17 @@ export default function Pravidla() {
                     <br/>
                     <blockquote>3) "Nemáš na viac, než mlátiť prostý ľud?"</blockquote>
                     <p>Vyzývať nebojové skupiny pozostávajúce zo sedliakov a remeselníkov fakt nie je chovanie hodné
-                        dobrodruha. Nič sa nedeje, obe družiny pokračujú svojou cestou.
+                        hrdinu či dobrodruha. Nič sa nedeje, obe družiny pokračujú svojou cestou.
                     </p>
-                    <h3>Prepad</h3>
+                    <h3 id="prepad">Prepad</h3>
                     <p>Keby boli všetci iba dobrí a čestní.... bola by to nuda, že ano? <br/>
-                        Pokiaľ chce družina nastrojiť pascu, a zaútočiť s výhodou na inú družinu, môže ju prepadnúť. Ak
-                        sa družina skryje pri ceste tak, že si ju iná okoidúca družina nevšimne, môžu momente, ako
-                        prejdú okolo, ohlásiť <i>"PREPAD!"</i>. Prepadnutá družina bude mať v tomto boji nevýhodu -
-                        každá
-                        bojujúca postava v tejto družine má práve 1 život, neaplikujú sa na ňu žiadne výhody a bonusy.
-                        Brániaca sa skupina musí zakričať odpoveď, ktorou potvrdí, že je pripravená k boju; <i>"Bránte
-                            sa!"</i>
-                        alebo <i>"Na nich!"</i> úplne stačí. <br/>
+                        Špeciálna schopnosť Lovca. Pokiaľ chce družina s lovcom nastrojiť pascu, a zaútočiť s výhodou na
+                        inú družinu, môže ju prepadnúť. Ak sa družina skryje pri ceste tak, že si ju iná okoidúca
+                        družina nevšimne, môžu v momente, ako prejdú okolo, ohlásiť <i>"PREPAD!"</i>. Prepadnutá družina
+                        bude mať v tomto boji nevýhodu - jedna z bojaschopných postáv bola zasiahnutá šípom, a je
+                        okamžite vyradená z boja. Vyradenú postavu určuje útočník! Brániaca sa skupina musí zakričať
+                        odpoveď, ktorou potvrdí, že je pripravená k boju; <i>"Bránte sa!"</i> alebo <i>"Na
+                            nich!"</i> úplne stačí. <br/>
                         Ak si družina všimne iných hráčov, a chce predísť tomu, aby boli prepadnutá, taktne ich upozorní
                         na to, že o nich vie, a že sa necítia z ich chovania komfortne. Podstatné je, aby bola brániaca
                         sa skupina tou, ktorá iniciuje konverzáciu, výzvu, a podobne:</p>

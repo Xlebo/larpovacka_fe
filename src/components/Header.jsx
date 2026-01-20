@@ -7,7 +7,7 @@ const titles = {
     "/pravidla": { headerText: "Pravidlá"},
     "/prakticke": { headerText: "Praktické"},
     "/contacts": { headerText: "Kontakt" },
-    "/faq": { headerText: "Registracia"},
+    "/registracia": { headerText: "Registracia"},
     "/login": { headerText: "Prihlásenie" },
     "/register": { headerText: "Registrácia"},
 };

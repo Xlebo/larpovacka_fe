@@ -18,7 +18,7 @@ function App() {
                     <Route path="*" element={<Home/>}/>
                     <Route path="pravidla" element={<Pravidla/>}/>
                     <Route path="prakticke" element={<Prakticke/>}/>
-                    <Route path="faq" element={<Registracia/>}/>
+                    <Route path="registracia" element={<Registracia/>}/>
                     <Route path="contacts" element={<Contacts/>}/>
                     {/*<Route path="login" element={<Login setUser={(data) => setUser(data)}/>}/>*/}
                     {/*<Route path="register" element={<Register/>}/>*/}

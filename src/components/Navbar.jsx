@@ -25,7 +25,7 @@ export default function Navbar(
                     <li><NavLink to="/pravidla">Pravidlá</NavLink></li>
                     <li><NavLink to="/prakticke">Praktické</NavLink></li>
                     <li><NavLink to="/contacts">Kontakt</NavLink></li>
-                    <li><NavLink to="/faq">Registrácia</NavLink></li>
+                    <li><NavLink to="/registracia">Registrácia</NavLink></li>
                     {/*{(user == null) ?*/}
                     {/*    <>*/}
                     {/*        <li className="login"><NavLink to="/login">Login</NavLink></li>*/}
