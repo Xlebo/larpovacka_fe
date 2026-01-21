@@ -5,9 +5,11 @@ export default function Registracia() {
                 <p>
                     Registrácia prebieha v niekoľkých krokoch:
                     <ol>
-                        <li>Úvodný call s orgom. Booknite si v <a href="https://calendly.com">calendly</a> čas, kedy by
-                            vám to vyhovovalo, a zavoláme si
-                            ohľadne toho, čo by ste chceli hrať, aké sú motivácie vašej skupiny, prípadne jej zloženie.
+                        <li>Úvodný call s orgom. Booknite si v <a
+                            href="https://calendly.com/xlebo/30min" target="_blank"
+                            rel="noopener noreferrer">calendly</a> čas, kedy by
+                            vám to vyhovovalo, a zavoláme si ohľadne toho, ako bude vyzerať vaša družina, prípadne
+                            zodpoviem všetky dotazy a nejasnosti.
                         </li>
                         <li>Uhradenie registračného poplatku - ak sa zhodneme na tom, o čom bude vaša skupina, dostanete
                             výzvu k uhradeniu registračného poplatku
@@ -22,6 +24,10 @@ export default function Registracia() {
                             prípadných špeciálnych pravidiel
                         </li>
                     </ol>
+                    <br/>
+                    Registrácia ako výpomoc - ak sa vám nechce hrať v družine, ale chceš priložiť ruku k dielu ako
+                    výpomoc, či už ako CP postava, alebo s logistikou, buď mi píš priamo na facebook/WA/email, alebo si
+                    môžeš obdobne booknuť call na Calendly.
                 </p>
             </section>
 
