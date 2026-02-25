@@ -7,7 +7,7 @@ export default function Home() {
                 <p>
                     Cesta Machom je jednodňová akcia odohrávajúca sa vo fantasy svete Aggalion. Štvorčlenné skupiny
                     dobrodruhov sa vydávajú po stopách mocného paladina z Auripuly, Huga Železného, aby zistili osud
-                    jeho výpravy, a získali Dalamarov Grimoár, ktorý mala jeho expedícia nájsť a zničiť.
+                    jeho výpravy, a získali Dalamarov Grimoár, ktorý mala jeho expedícia nájsť.
                 </p>
                 <p><i>
                     Ubehlo 10 rokov od porážky Morgionovej epidémie, ktorá postihla provinciu Vont a okolitý kontinent.
